@@ -1,4 +1,5 @@
 How the script works
+=====================
 
 1. The first step of this code is to download the Samsung data to my working directory and unzip the package with "unzip" function. Use "read.table" function to read all the dataset needed in the assginment into R. 
 2. The second step is to merge the data. Merge the testing dataset and t#raining set by "rbind" function. Also merge the subject and activity data by "cbind" function. Name the varibles in the dataset with the "features" dataset.
